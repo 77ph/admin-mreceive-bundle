@@ -1,0 +1,22 @@
+Format: 1.8
+Date: Tue, 14 Jun 2016 16:19:09 +0100
+Source: mreceive-vbr-timezone-utils
+Binary: mreceive-vbr-timezone-utils
+Architecture: amd64
+Version: 0.0.1-2
+Distribution: trusty
+Urgency: medium
+Maintainer: Andrey Leb (admin vqm.io) <admin@vqm.io>
+Changed-By: Andrey Leb (admin vqm.io) <admin@vqm.io>
+Description: 
+ mreceive-vbr-timezone-utils - Timezone utils for ControPanel IPTV monitoring software to contro
+Changes: 
+ mreceive-vbr-timezone-utils (0.0.1-2) trusty; urgency=medium
+ .
+   * move to mh_make
+Checksums-Sha1: 
+ 82c0dd56ea403a4de6994505645482bacae32c83 3472 mreceive-vbr-timezone-utils_0.0.1-2_amd64.deb
+Checksums-Sha256: 
+ 30c0edbd86f125c2438b2331be0ac6782195bf3172ce8800a9bbf6c750dbfc51 3472 mreceive-vbr-timezone-utils_0.0.1-2_amd64.deb
+Files: 
+ 0875cd97c2638dfb15f8663bcaf78c47 3472 misc extra mreceive-vbr-timezone-utils_0.0.1-2_amd64.deb

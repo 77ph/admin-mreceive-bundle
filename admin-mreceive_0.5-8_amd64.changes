@@ -1,0 +1,33 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Mon, 28 Aug 2017 13:27:37 +0300
+Source: admin-mreceive
+Binary: admin-mreceive
+Architecture: amd64
+Version: 0.5-8
+Distribution: trusty
+Urgency: medium
+Maintainer: Andrey Leb (admin vqm.io) <admin@vqm.io>
+Changed-By: Andrey Leb (admin vqm.io) <admin@vqm.io>
+Description: 
+ admin-mreceive - ControPanel IPTV monitoring software to control quality of IPTV m
+Changes: 
+ admin-mreceive (0.5-8) trusty; urgency=medium
+ .
+   * fix double name of steam after stop
+Checksums-Sha1: 
+ 1a12c3ac55fabbf3f208e29c7d8272eecb555ea0 10281682 admin-mreceive_0.5-8_amd64.deb
+Checksums-Sha256: 
+ 3f808ff91d0aad3acb90b5c572a64f58720f79951d99fa78fe0a8e405546b9a9 10281682 admin-mreceive_0.5-8_amd64.deb
+Files: 
+ 325019e1b72e05382be608ec5c2439b1 10281682 misc extra admin-mreceive_0.5-8_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iF4EAREIAAYFAlmj8Q4ACgkQBVLfqT3Pp8p5XwEAseV6RMx7X8lhoa0woV4CLzwB
+KyrRN/i/rsaIzJYKUGIBAJSzmzlfI2JAzcVR5s6io9WJoZ5K3tWxYCjKdYVtwECM
+=pL0d
+-----END PGP SIGNATURE-----

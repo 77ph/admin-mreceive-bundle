@@ -1,0 +1,59 @@
+ dpkg-buildpackage -rfakeroot -D -us -uc -b
+dpkg-buildpackage: source package mreceive-vbr-timezone-utils
+dpkg-buildpackage: source version 0.0.1-2
+dpkg-buildpackage: source distribution trusty
+dpkg-buildpackage: source changed by Andrey Leb (admin vqm.io) <admin@vqm.io>
+ dpkg-source --before-build mreceive-vbr-timezone-utils
+dpkg-buildpackage: host architecture amd64
+ fakeroot debian/rules clean
+dh clean
+   dh_testdir
+   dh_auto_clean
+   dh_clean
+ debian/rules build
+dh build
+   dh_testdir
+   dh_auto_configure
+   dh_auto_build
+   dh_auto_test
+ fakeroot debian/rules binary
+dh binary
+   dh_testroot
+   dh_prep
+   dh_auto_install
+   debian/rules override_dh_install
+make[1]: Entering directory `/developer/timezone/release/mreceive-vbr-timezone-utils'
+# дальше мы создаём дерево каталогов внутри сборочного дерева, из которого соберется архив с файлами:
+# для начала убедимся, что там не осталось хлама от предыдущих сборок (получим пустой каталог debian/example-package):
+# если не создавать пустой файл - то команда rm упадёт со словами "нечего удалять" и сборка пакета не случится 
+mkdir -p debian/mreceive-vbr-timezone-utils/
+touch debian/mreceive-vbr-timezone-utils/dummy
+rm -rf debian/mreceive-vbr-timezone-utils/*
+# теперь создаём нужные каталоги: 
+mkdir -p debian/mreceive-vbr-timezone-utils/usr/bin/
+# копируем наши файлики:
+cp sources/usr/bin/* debian/mreceive-vbr-timezone-utils/usr/bin/
+# выставим флаг +x на скрипты внутри пакета, чтобы они могли запускаться: 
+chmod +x debian/mreceive-vbr-timezone-utils/usr/bin/*
+make[1]: Leaving directory `/developer/timezone/release/mreceive-vbr-timezone-utils'
+   dh_installdocs
+   dh_installchangelogs
+   dh_perl
+   dh_link
+   dh_compress
+   dh_fixperms
+   dh_strip
+   dh_makeshlibs
+   dh_shlibdeps
+   dh_installdeb
+   dh_gencontrol
+   dh_md5sums
+   dh_builddeb
+dpkg-deb: building package `mreceive-vbr-timezone-utils' in `../mreceive-vbr-timezone-utils_0.0.1-2_amd64.deb'.
+ dpkg-genchanges -b >../mreceive-vbr-timezone-utils_0.0.1-2_amd64.changes
+dpkg-genchanges: binary-only upload - not including any source code
+ dpkg-source --after-build mreceive-vbr-timezone-utils
+dpkg-buildpackage: binary only upload (no source included)
+Now signing changes and any dsc files...
+ signfile mreceive-vbr-timezone-utils_0.0.1-2_amd64.changes Andrey Leb (admin vqm.io) <admin@vqm.io>
+gpg: gpg-agent is not available in this session

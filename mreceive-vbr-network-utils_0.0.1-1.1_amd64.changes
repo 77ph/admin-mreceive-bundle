@@ -1,0 +1,33 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Mon, 13 Jun 2016 16:25:32 +0100
+Source: mreceive-vbr-network-utils
+Binary: mreceive-vbr-network-utils
+Architecture: amd64
+Version: 0.0.1-1.1
+Distribution: trusty
+Urgency: medium
+Maintainer: Andrey Leb (admin vqm.io) <admin@vqm.io>
+Changed-By: Andrey Leb (admin vqm.io) <admin@vqm.io>
+Description: 
+ mreceive-vbr-network-utils - Network utils for ControPanel IPTV monitoring software to control
+Changes: 
+ mreceive-vbr-network-utils (0.0.1-1.1) trusty; urgency=medium
+ .
+   * Move to mh_make
+Checksums-Sha1: 
+ 0dc38f050fafdab2c409bacefc5a57c0098b6799 6202 mreceive-vbr-network-utils_0.0.1-1.1_amd64.deb
+Checksums-Sha256: 
+ ecac244c3e00ec4afc21c0a8533f8b92c946c4fd101ada08efdb384292235141 6202 mreceive-vbr-network-utils_0.0.1-1.1_amd64.deb
+Files: 
+ f25b7066ff679494434a04dfc9b9a2de 6202 misc extra mreceive-vbr-network-utils_0.0.1-1.1_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iF4EAREIAAYFAldqhKoACgkQNoecD+dOZFdpKQD9FILDeWyPbJcuHTfZVzFcSxWf
+YtcovxFWx52L7XNrlsEA/RpIH9LiWNcml/MJviYY6i+heUZTa+V3j3uYm2dBklIw
+=lrcd
+-----END PGP SIGNATURE-----

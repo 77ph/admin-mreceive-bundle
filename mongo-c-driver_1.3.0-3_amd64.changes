@@ -1,0 +1,33 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Mon, 27 Jun 2016 21:30:14 +0100
+Source: mongo-c-driver
+Binary: mongo-c-driver
+Architecture: amd64
+Version: 1.3.0-3
+Distribution: trusty
+Urgency: medium
+Maintainer: Andrey Leb (admin vqm.io) <admin@vqm.io>
+Changed-By: Andrey Leb (admin vqm.io) <admin@vqm.io>
+Description: 
+ mongo-c-driver - mongo-c-driver
+Changes: 
+ mongo-c-driver (1.3.0-3) trusty; urgency=medium
+ .
+   * Fix rsync rules
+Checksums-Sha1: 
+ e73e50c555aeef34318e1ad6ef0a60069492bf9d 842234 mongo-c-driver_1.3.0-3_amd64.deb
+Checksums-Sha256: 
+ fcfb1e74833f58fb92fab0024e5021f42f6fe9e6e35f3b2fc841f19314034e1b 842234 mongo-c-driver_1.3.0-3_amd64.deb
+Files: 
+ a753c18bccac307365cf7469d3e9ef10 842234 misc extra mongo-c-driver_1.3.0-3_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iF4EAREIAAYFAldxjQQACgkQNoecD+dOZFeuigD/QK2wZlsfPLMUwqrzk9QI2OP+
+1H4Q/6Z4m6pfnG1QZT8A/jksBTlmuAINsPfV2F9x2qnJwGuhq4E85UetU3NForwb
+=w3+6
+-----END PGP SIGNATURE-----

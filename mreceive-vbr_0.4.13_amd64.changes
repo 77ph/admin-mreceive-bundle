@@ -1,0 +1,33 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Fri, 07 Apr 2017 14:17:57 +0300
+Source: mreceive-vbr
+Binary: mreceive-vbr
+Architecture: amd64
+Version: 0.4.13
+Distribution: trusty
+Urgency: medium
+Maintainer: Andrey Leb (admin vqm.io) <admin@vqm.io>
+Changed-By: Andrey Leb (admin vqm.io) <admin@vqm.io>
+Description: 
+ mreceive-vbr - Engine IPTV monitoring software to control quality of IPTV multic
+Changes: 
+ mreceive-vbr (0.4.13) trusty; urgency=medium
+ .
+   * fix json SDT
+Checksums-Sha1: 
+ c7c546eb2404c90f62907865b4c6afbed92123af 32764 mreceive-vbr_0.4.13_amd64.deb
+Checksums-Sha256: 
+ 1aedb6036456710e57cfafa4594e2b2e04d627287eb619a6aedf9600a9384d28 32764 mreceive-vbr_0.4.13_amd64.deb
+Files: 
+ e0eec57c4cbafae29834b471018a7895 32764 misc extra mreceive-vbr_0.4.13_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iF4EAREIAAYFAljndZEACgkQBVLfqT3Pp8r1cgD/f3vij4mD0A6GSKpTh6l45gN6
+GXKC9hVOU6+fJL5fdmUA/3u8wxtr9Evd6d9ARqZfjfvxGtKZ65aAhGCXP2agYMST
+=xHGM
+-----END PGP SIGNATURE-----
