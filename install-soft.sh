@@ -77,3 +77,11 @@ fi
 #step 9 install tstool
 sudo apt-get install -y tstools
 
+#step 10 finish
+sudo dpkg -i mongo-c-driver_1.3.0-3_amd64.deb
+sudo dpkg -i mreceive-vbr-network-utils_0.0.1-1.1_amd64.deb
+sudo dpkg -i mreceive-vbr-timezone-utils_0.0.1-2_amd64.deb
+sudo dpkg -i mreceive-vbr_0.4.13_amd64.deb
+sudo dpkg --force-all -i admin-mreceive_0.5-6_amd64.deb
+stop admin_mreceive
+start admin_mreceive
